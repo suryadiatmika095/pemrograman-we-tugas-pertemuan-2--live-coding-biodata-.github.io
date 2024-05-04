@@ -1,0 +1,41 @@
+html {
+    padding: 0;
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.biodata {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 250px;
+    float: left; /* Menempatkan gambar di samping kiri */
+    margin-right: 20px; /* Memberikan jarak antara gambar dan tabel */
+}
+
+.table-container {
+    border: 3px solid brown;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Menangani clear float */
+}
+
+table {
+    width: calc(100% - 270px); /* Lebar tabel dikurangi lebar gambar dan margin */
+    border-collapse: collapse;
+    float: right; /* Menempatkan tabel di samping kanan */
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
